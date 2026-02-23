@@ -5,7 +5,7 @@ import { LOJAS } from "../data/mockData";
 export default function HomeScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.headerTitle}>Lojas próximas</Text>
+            <Text style={styles.headerTitle}>Time da FURIA</Text>
             <FlatList
                 data={LOJAS}
                 keyExtractor={(item) => item.id}
