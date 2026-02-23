@@ -1,5 +1,5 @@
 import { View, Text, FlatList, StyleSheet } from "react-native";
-import LojaCard from "../components/LojaCard";
+import LojaCard from "../components/LojaCards";
 import { LOJAS } from "../data/mockData";
 
 export default function HomeScreen() {
