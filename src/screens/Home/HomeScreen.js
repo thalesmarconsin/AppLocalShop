@@ -1,6 +1,7 @@
 import { View, Text, FlatList, StyleSheet } from "react-native";
-import LojaCard from "../components/LojaCards";
-import { LOJAS } from "../data/mockData";
+import LojaCard from "../../components/LojaCards";
+import { LOJAS } from "../../data/mockData";
+import { styles } from "./StyleHome";
 
 export default function HomeScreen() {
     return (
@@ -15,21 +16,3 @@ export default function HomeScreen() {
         </View>
     ); 
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1, 
-        backgroundColor: '#f5f5f5',
-        paddingTop: 50,
-    },
-    headerTitle: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        marginLeft: 20,
-        marginBottom: 20,
-        color: '#333',
-    },
-    list: {
-        paddingHorizontal: 20,
-    }
-});
