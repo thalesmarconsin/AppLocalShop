@@ -5,7 +5,7 @@ import LojaCard from '../../components/LojaCard';
 export default function HomeScreen() {
   const { lojas, loading } = useLojas();
 
-  if (loading) return <ActivityIndicator size="large" color="#27ae60" />;
+  if (loading) return <ActivityIndicator size="large" color="#0257c7" />;
 
   return (
     <View style={{ flex: 1 }}>

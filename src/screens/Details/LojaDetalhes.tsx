@@ -16,7 +16,7 @@ export default function LojaDetalhes({ route, navigation }) {
         <Button 
           title="Voltar para Home" 
           onPress={() => navigation.goBack()} 
-          color="#27ae60"
+          color="#0257c7"
         />
       </View>
     </View>
