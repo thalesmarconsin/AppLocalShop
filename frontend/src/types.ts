@@ -6,3 +6,5 @@ export type RootStackParamList = {
   Cadastro: undefined;
 };
 
+
+export { Loja };
