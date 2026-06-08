@@ -28,18 +28,6 @@ export default function HomeScreen() {
       >
         <Text style={styles.fabText}>+</Text>
       </TouchableOpacity>
- {/* Rodapé */}
-      <View style={{
-        paddingVertical: 12,
-        alignItems: 'center',
-        borderTopWidth: 0.5,
-        borderTopColor: '#ccc',
-        backgroundColor: '#f9f9f9',
-      }}>
-        <Text style={{ fontSize: 14, color: '#666' }}>
-          Desenvolvido por Thales Marconsin de Oliveira
-        </Text>
-      </View>
 
     </View>
   );
