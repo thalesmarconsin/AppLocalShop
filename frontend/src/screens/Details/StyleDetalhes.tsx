@@ -25,7 +25,33 @@ export const styles = StyleSheet.create({
     lineHeight: 24, 
     marginBottom: 20, 
     color: '#444' 
-  }
+  },
+  botaoEditar: {
+  backgroundColor: '#27ae60',
+  padding: 12,
+  borderRadius: 8,
+  alignItems: 'center',
+  marginTop: 12,
+},
+botaoDeletar: {
+  backgroundColor: '#e74c3c',
+  padding: 12,
+  borderRadius: 8,
+  alignItems: 'center',
+  marginTop: 8,
+},
+botaoVoltar: {
+  backgroundColor: '#95a5a6',
+  padding: 12,
+  borderRadius: 8,
+  alignItems: 'center',
+  marginTop: 8,
+},
+botaoTexto: {
+  color: '#fff',
+  fontWeight: 'bold',
+  fontSize: 16,
+},
 });
 
 export default styles;

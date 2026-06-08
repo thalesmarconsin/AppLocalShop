@@ -27,7 +27,7 @@ export default function HomeScreen() {
       {/* O FAB agora vai funcionar porque o 'navigation' existe! */}
       <TouchableOpacity 
         style={styles.fab} 
-        onPress={() => navigation.navigate('Cadastro')}
+        onPress={() => navigation.navigate("CadastroLoja")}
       >
         <Text style={styles.fabText}>+</Text>
       </TouchableOpacity>
